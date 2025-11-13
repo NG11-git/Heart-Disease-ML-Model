@@ -12,38 +12,41 @@ This project predicts the likelihood of heart disease using machine learning mod
 -Deployment via a simple app interface (app.py)
 
 * Features
-Multiple ML algorithms: Logistic Regression, Support Vector Machine
 
-Modular preprocessing ( train/test split)
+-Multiple ML algorithms: Logistic Regression, Support Vector Machine
 
-Model comparison with accuracy, precision, recall, F1‑score
+-Modular preprocessing ( train/test split)
 
-Deployment‑ready app with streamlit 
+-Model comparison with accuracy, precision, recall, F1‑score
 
-Clear documentation and requirements management
+-Deployment‑ready app with streamlit 
+
+-Clear documentation and requirements management
 
 * Dataset
-The dataset is based on the UCI Heart Disease dataset, containing patient attributes such as:
 
-Age, sex, chest pain type
+-The dataset is based on the UCI Heart Disease dataset, containing patient attributes such as:
 
-Resting blood pressure, cholesterol
+-Age, sex, chest pain type
 
-Fasting blood sugar, ECG results
+-Resting blood pressure, cholesterol
 
-Maximum heart rate, exercise induced angina
+-Fasting blood sugar, ECG results
 
-ST depression, slope, number of vessels, thalassemia
+-Maximum heart rate, exercise induced angina
+
+-ST depression, slope, number of vessels, thalassemia
 
 * Results
-Logistic Regression: 87% accuracy
 
-Random Forest: 82% accuracy
+-Logistic Regression: 87% accuracy
 
-Live Demo
+-SVM    : 82% accuracy
+
+
 You can try the app here:
 https://heart-disease-ml-model-7gvdtj9s8qdlwlescy4ujp.streamlit.app/
 
 
-Author
+
 Developed by Nandhu Gopan A V
