@@ -6,8 +6,8 @@ from joblib import load
 
 
 #load the trained model
-svm=load(r"C:\Users\lenovo\HeartDisease ML Model\svm.joblib")
-log=load(r"C:\Users\lenovo\HeartDisease ML Model\log.joblib")
+svm=load("svm.joblib")
+log=load("log.joblib")
 
 
 st.title("Heart Disease Risk Predictor")
@@ -105,5 +105,6 @@ if st.button("Predict"):
     st.subheader(f"🩺 Prediction: {result}")
 
  
+
 
 
