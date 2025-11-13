@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from joblib import  load
+from joblib import load
 import sklearn.compose._column_transformer as ct
 
 
@@ -112,4 +112,5 @@ if st.button("Predict"):
         prediction = log.predict(input_data)
     result = "High Risk of Heart Disease" if prediction[0] == 1 else "Low Risk of Heart Disease"
     st.subheader(f"🩺 Prediction: {result}")
+
  
