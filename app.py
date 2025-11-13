@@ -1,15 +1,6 @@
 import streamlit as st
 import numpy as np
-import joblib
-import sklearn.compose._column_transformer as ct
-
-
-# Temporary fix for old sklearn model compatibility
-class _RemainderColsList(list):
-    """Compatibility patch for old sklearn models (removed in newer versions)."""
-    pass
-
-ct._RemainderColsList = _RemainderColsList
+from joblib import load
 
 
 
@@ -114,4 +105,5 @@ if st.button("Predict"):
     st.subheader(f"🩺 Prediction: {result}")
 
  
+
 
