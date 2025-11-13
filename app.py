@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from joblib import load
+import joblib
 import sklearn.compose._column_transformer as ct
 
 
@@ -114,3 +114,4 @@ if st.button("Predict"):
     st.subheader(f"🩺 Prediction: {result}")
 
  
+
